@@ -1,0 +1,99 @@
+.projectContainer {
+
+  padding: 15px 40px;
+}
+.projectContainer h2 {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 5rem;
+}
+.projects {
+  max-width: max-content;
+}
+.project {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  max-width: max-content;
+   z-index: 1;
+}
+
+.projectContent {
+  max-width: 30%;
+}
+
+.project img {
+  display: flex;
+  width: 100%;
+  max-height: 200px;
+}
+.projectTitle,
+.projectDesc {
+  padding: 10px 0;
+}
+.projectBtn {
+  margin-left: 0;
+  max-width: fit-content;
+  padding: 15px 25px;
+  background-color: #fc2f70;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 1042px) {
+
+  .projectContent {
+    max-width: 45%;
+  }
+}
+
+
+@media (max-width: 860px) {
+  /* .project {
+    max-width: 45%;
+  } */
+  .projectTitle {
+    font-size: 1.4rem;
+  }
+  .projectDesc {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 770px) {
+.projectBtn{
+  max-width: 100%;
+}
+}
+@media (max-width: 650px) {
+  .projectContent {
+    max-width: 90%;
+  }
+
+}
+@media (max-width: 550px) {
+.projectContainer {
+  padding: 15px;
+}
+}
+@media (max-width: 400px) {
+  .projectContainer h2 {
+    font-size: 1.5rem;
+  }
+  .projectTitle {
+    font-size: 1.2rem;
+  }
+  .projectDesc {
+    font-size: 1rem;
+  }
+.projectContainer {
+  padding: 10px;
+}
+}

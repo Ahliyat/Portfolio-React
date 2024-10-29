@@ -1,0 +1,93 @@
+header {
+  border-bottom: 3px solid #fc2f70;
+  position: sticky;
+  top: 0;
+}
+.navigations {
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  align-items: center;
+  position: relative;
+  background-color: #0a032c;
+}
+nav h3 {
+  cursor: pointer;
+}
+
+.barsIcon {
+  display: none;
+  font-size: 2rem;
+  color: #fc2f70;
+}
+.navItems {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.navItem:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #fc2f70;
+}
+
+Button {
+  font-size: 0.8rem;
+  padding: 10px;
+}
+
+.active {
+  border-bottom: 2px solid #ffffff;
+}
+
+@media (max-width: 860px) {
+  .navigations span {
+    display: block;
+  }
+  .navBtn {
+    align-self: start;
+  }
+  .navItems {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #0a032c;
+    transition: all 0.3s linear;
+    padding: 3px 25px;
+  }
+  .navItem {
+    align-self: start;
+  }
+  .show {
+    max-height: 300px;
+  }
+}
+@media (max-width: 550px) {
+  nav {
+    padding: 15px;
+  }
+
+  .navigations h3 {
+    font-size: 20px;
+  }
+
+  .navigations span {
+    font-size: 25px;
+  }
+}
+@media (max-width: 400px) {
+  .navigations h3 {
+    font-size: 16px;
+  }
+  .navigations span {
+    font-size: 20px;
+  }
+  nav {
+    padding: 10px;
+  }
+}

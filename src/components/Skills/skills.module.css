@@ -1,0 +1,91 @@
+.skillContainer {
+  padding: 15px, 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.skillTitle {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding: 5rem; */
+  list-style: none;
+  /* margin-top: 5rem; */
+  flex-wrap: wrap;
+}
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background-color: #fff;
+  color: #0a032c;
+  padding: 15px 25px;
+  border-radius: 2px;
+}
+
+@media (max-width: 860px) {
+  .skills {
+    justify-content: center;
+    gap: 5.5rem;
+  }
+}
+@media (max-width: 770px) {
+  .skills {
+    justify-content: center;
+    gap: 5rem;
+  }
+}
+@media (max-width: 700px) {
+  .skills {
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+}
+@media (max-width: 680px) {
+  .skills {
+    gap: 3rem;
+  }
+}
+@media (max-width: 650px) {
+  .skills {
+    gap: 2.5rem;
+  }
+}
+@media (max-width: 575px) {
+  .skills {
+    gap: 2rem;
+    padding: 0, 10px;
+  }
+}
+@media (max-width: 550px) {
+  .skills {
+    gap: 1.2rem;
+    padding: 0, 10px;
+  }
+  .skillContainer {
+    padding: 15px;
+  }
+}
+@media (max-width: 470px) {
+  .skills {
+    padding: 0;
+  }
+}
+@media (max-width: 400px) {
+  .skillTitle {
+    font-size: 2rem;
+  }
+  .skill {
+    font-size: 1rem;
+    padding: 15px;
+  }
+  .skillContainer {
+    padding: 10px;
+  }
+}
