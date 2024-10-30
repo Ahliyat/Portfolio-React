@@ -16,11 +16,11 @@ gap: .3rem;
   display: flex;
   gap: .3rem;
 }
-.socialLinks {
+.socialLink {
   display: flex;
   gap: 1rem;
 }
-.socialLinks:hover {
+.socialLink:hover {
   cursor: pointer;
 }
 

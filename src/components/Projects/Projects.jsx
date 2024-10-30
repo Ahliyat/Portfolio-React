@@ -1,6 +1,6 @@
 import styles from "./projects.module.css";
 import Button from "../Button/Button";
-const data = [
+const projectData = [
   {
     id: 1,
     img: "/DMS-picture.PNG",
@@ -44,7 +44,7 @@ const Projects = () => {
       <h2>My Projects</h2>
       <section className={styles.projects}>
         <section className={styles.project} id="project">
-          {data.map((project) => (
+          {projectData.map((project) => (
             <section key={project.id} className={styles.projectContent}>
               <img src={project.img} alt="" />
               <h3 className={styles.projectTitle}>{project.title}</h3>

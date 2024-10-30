@@ -18,6 +18,15 @@
   /* margin-top: 5rem; */
   flex-wrap: wrap;
 }
+.skillsContent{
+   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding: 5rem; */
+  list-style: none;
+  /* margin-top: 5rem; */
+  flex-wrap: wrap;
+}
 .skill {
   display: flex;
   align-items: center;
