@@ -1,31 +1,9 @@
 import styles from "./navbar.module.css";
 import { NavLink } from "react-router-dom";
-
 import { FaBars } from "react-icons/fa";
 import Button from "../Button/Button";
+import { navItems } from "../../data";
 
-const navItems = [
-  {
-    id: 1,
-    title: "Homepage",
-    path: "#homepage",
-  },
-  {
-    id: 2,
-    title: "Skills",
-    path: "#skills",
-  },
-  {
-    id: 3,
-    title: "Projects",
-    path: "#projects",
-  },
-  {
-    id: 4,
-    title: "Projects",
-    desc: "DOWNLOAD MY CV",
-  },
-];
 
 
 const Navbar = () => {

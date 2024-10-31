@@ -1,42 +1,6 @@
 import styles from "./projects.module.css";
 import Button from "../Button/Button";
-const projectData = [
-  {
-    id: 1,
-    img: "/DMS-picture.PNG",
-    title: "DMS",
-    description:
-      " DMS helps you to manage your rides and deliveries effectively whether as a logistics company or as a regular local business.",
-  },
-  {
-    id: 2,
-    img: "/portfolio img.jpg",
-    title: "Lorem, ipsum dolor.",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus voluptates inventore dolore animi vero cumque! ",
-  },
-  {
-    id: 3,
-    img: "/portfolio img.jpg",
-    title: "Lorem, ipsum dolor.",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus voluptates inventore dolore animi vero cumque! ",
-  },
-  {
-    id: 4,
-    img: "/portfolio img.jpg",
-    title: "Lorem, ipsum dolor.",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus voluptates inventore dolore animi vero cumque! ",
-  },
-  {
-    id: 5,
-    img: "/portfolio img.jpg",
-    title: "Lorem, ipsum dolor.",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus voluptates inventore dolore animi vero cumque! ",
-  },
-];
+import { projectData } from "../../data";
 
 const Projects = () => {
   return (

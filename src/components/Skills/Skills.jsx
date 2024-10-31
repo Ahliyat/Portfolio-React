@@ -1,39 +1,5 @@
 import styles from "./skills.module.css";
-import {
-  FaSquareGit,
-  FaHtml5,
-  FaCss3Alt,
-  FaSquareJs,
-  FaReact,
-} from "react-icons/fa6";
-
-const skillItems = [
-  {
-    id: 1,
-    title: "Html",
-    icon: FaHtml5,
-  },
-  {
-    id: 2,
-    title: "Css",
-    icon: FaCss3Alt,
-  },
-  {
-    id: 3,
-    title: "Javascript",
-    icon: FaSquareJs,
-  },
-  {
-    id: 4,
-    title: "Git",
-    icon: FaSquareGit,
-  },
-  {
-    id: 5,
-    title: "React",
-    icon: FaReact,
-  },
-];
+import { skillItems } from "../../data";
 
 const Skills = () => {
   return (

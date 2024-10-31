@@ -26,7 +26,6 @@ nav h3 {
   gap: 1rem;
   align-items: center;
 }
-
 .navItem:hover {
   cursor: pointer;
   border-bottom: 1px solid #fc2f70;
