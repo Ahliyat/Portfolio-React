@@ -41,6 +41,10 @@ Button {
 }
 
 @media (max-width: 860px) {
+.barsIcon {
+  display: block;
+}
+
   .navigations span {
     display: block;
   }

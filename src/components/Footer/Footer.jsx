@@ -30,24 +30,7 @@ const Footer = () => {
             </ul>
           ))}
 
-          {/* <ul className={styles.socialLinks}>
-            <li className={styles.socialLink}>
-              <FaWhatsapp />
-              <Link to="https://wa.link/p6ftmd"></Link>
-            </li>
-            <li className={styles.socialLink}>
-              <FaXTwitter />
-              <Link to="https://x.com/Ah_liyat"></Link>
-            </li>
-            <li className={styles.socialLink}>
-              <FaLinkedin />
-              <Link to="https://www.linkedin.com/in/ahliyat-orenuga-56ab43293/"></Link>
-            </li>
-            <li className={styles.socialLink}>
-              <FaGithub />
-              <Link to="https://github.com/Ahliyat"></Link>
-            </li>
-          </ul> */}
+        
         </li>
       </ul>
     </footer>
