@@ -1,5 +1,11 @@
 import styles from "./skills.module.css";
-import { FaSquareGit, FaHtml5, FaCss3Alt, FaSquareJs } from "react-icons/fa6";
+import {
+  FaSquareGit,
+  FaHtml5,
+  FaCss3Alt,
+  FaSquareJs,
+  FaReact,
+} from "react-icons/fa6";
 
 const skillItems = [
   {
@@ -25,7 +31,7 @@ const skillItems = [
   {
     id: 5,
     title: "React",
-    icon: FaSquareGit,
+    icon: FaReact,
   },
 ];
 
@@ -33,9 +39,9 @@ const Skills = () => {
   return (
     <section id="skills" className={styles.skillContainer}>
       <h2 className={styles.skillTitle}>My Skills</h2>
-      <section className={styles.skillsContent}>
+      <section className={styles.skills}>
         {skillItems.map((skills) => (
-          <ul key={skills.id} className={styles.skills}>
+          <ul key={skills.id} className={styles.skillContent}>
             <li className={styles.skill}>
               <skills.icon />
               <span className={styles.link}>{skills.title}</span>

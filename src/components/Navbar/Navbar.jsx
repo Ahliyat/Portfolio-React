@@ -33,9 +33,9 @@ const Navbar = () => {
     <header>
       <nav className={styles.navigations}>
         <h3>Ahliyat&apos;s Portfolio</h3>
-        <section className={styles.navItemsContainer}>
+        <section className={styles.navItems}>
           {navItems.map((item) => (
-            <section key={item.id} id="nav-items" className={styles.navItems}>
+            <section key={item.id} id="nav-items" className={styles.navItemsContainer}>
               <NavLink id="nav-item" className={styles.navItem} to={item.path}>
                 {item.title}
               </NavLink>

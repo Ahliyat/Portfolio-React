@@ -1,6 +1,6 @@
 import styles from "./footer.module.css";
 import { FaRegCopyright } from "react-icons/fa";
-import { FaWhatsapp, FaXTwitter, FaLinkedin, FaGithub } from "react-icons/fa6";
+import { FaWhatsapp, FaXTwitter, FaLinkedin, FaGithub,  } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const socialLinks = [
