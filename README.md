@@ -2,7 +2,7 @@
 
 ### Installation 
 `npm create vite@latest folderName`
-
+` npm create vite@latest folderName -- --template react`
 ### Getting Started
 
 `git clone https://github.com/Cohort-4/cohort-4.1-react-class.git`

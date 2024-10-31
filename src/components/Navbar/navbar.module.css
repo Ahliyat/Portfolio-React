@@ -37,17 +37,14 @@ Button {
 }
 
 .active {
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 1px solid #fc2f70 ;
 }
 
 @media (max-width: 860px) {
-.barsIcon {
+  .barsIcon {
   display: block;
 }
-
-  .navigations span {
-    display: block;
-  }
+ 
   .navBtn {
     align-self: start;
   }
